@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-xs-6">
+        <button class="btn btn-success"
+            (click)="onStart()"
+            [disabled]="counter"
+            [innerText]="(isStarted) ? 'Resume' : 'Start'"></button>
+    </div>
+    <div class="col-xs-6">
+        <button class="btn btn-warning"
+            (click)="onStop()"
+            [disabled]="!counter">
+            Pause
+        </button>
+    </div>
+    <div class="col-xs-12">
+        <p>
+            Counter: {{ count }}
+        </p>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+.oddHeading {
+    display: inline-block;
+    padding: 1rem;
+    border: 2px solid purple;
+    border-radius: 1rem;
+}
+
+.evenHeading {
+    display: inline-block;
+    padding: 1rem;
+    border: 2px solid green;
+    border-radius: 1rem;
+}
